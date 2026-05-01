@@ -11,6 +11,43 @@
     <link rel="stylesheet" href="styles/index.css" />
   </head>
   <body>
+    <header id="main-header">
+      <div class="main-header__container container">
+        <a class="main-header__logo" href="/">Telma Joias</a>
+
+        <nav class="main-header__nav">
+          <button class="main-header__menu-toggle">
+            <img
+              class="main-header__icon-open"
+              src="./assets/icons/menu.svg"
+              alt="Abrir menu"
+            />
+            <img
+              class="main-header__icon-close"
+              src="./assets/icons/x.svg"
+              alt="Fechar menu"
+            />
+          </button>
+
+          <ul class="main-header__nav-menu">
+            <li><a href="#" class="main-header__nav-link">Coleção</a></li>
+            <li><a href="#" class="main-header__nav-link">Sobre</a></li>
+            <li><a href="#" class="main-header__nav-link">Novidades</a></li>
+            <li><a href="#" class="main-header__nav-link">Contato</a></li>
+          </ul>
+        </nav>
+
+        <a
+          href="https://wa.me/55119999999"
+          class="main-header__btn-whatsapp"
+          target="_blank"
+        >
+          <img src="./assets/icons/message-circle.svg" alt="Icon - WhatsApp" />
+          <span> Falar no WhatsApp </span>
+        </a>
+      </div>
+    </header>
     
+    <script type="module" src="./scripts/index.js"></script>
   </body>
 </html>

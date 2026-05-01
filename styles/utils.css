@@ -1,0 +1,9 @@
+.container {
+  max-width: 76rem;
+  width: 88%;
+  margin: auto;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
