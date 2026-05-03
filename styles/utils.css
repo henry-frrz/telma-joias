@@ -7,3 +7,15 @@
 .no-scroll {
   overflow: hidden;
 }
+
+.logo-link {
+  font-family: 'Fraunces', serif;
+  font-size: 1.5rem;
+  color: var(--color-primary);
+
+  transition: all 0.2s ease;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
