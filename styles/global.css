@@ -23,6 +23,24 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
+body {
+  display: grid;
+  gap: 4rem;
+}
+
+h2 {
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-size: var(--text-5xl);
+  color: var(--color-primary);
+}
+
+p {
+  line-height: 1.875;
+  font-size: var(--text-lg);
+  font-weight: 300;
+}
+
 img,
 picture {
   max-width: 100%;
@@ -59,14 +77,22 @@ strong {
   letter-spacing: 0.2rem;
 }
 
+@media (max-width: 768px) {
+  html {
+    font-size: 87.5%;
+  }
+
+  body {
+    gap: 5rem;
+  }
+}
+
 @media (max-width: 1024px) {
   html {
     font-size: 93.75%;
   }
-}
 
-@media (max-width: 768px) {
-  html {
-    font-size: 87.5%;
+  body {
+    gap: 6rem;
   }
 }
