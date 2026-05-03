@@ -23,15 +23,16 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
-body {
-  display: grid;
-  gap: 4rem;
-}
-
 h2 {
   font-family: 'Fraunces', serif;
   font-style: italic;
   font-size: var(--text-5xl);
+  color: var(--color-primary);
+}
+
+h3 {
+  font-family: 'Fraunces', serif;
+  font-size: var(--text-2xl);
   color: var(--color-primary);
 }
 
@@ -81,18 +82,10 @@ strong {
   html {
     font-size: 87.5%;
   }
-
-  body {
-    gap: 5rem;
-  }
 }
 
 @media (max-width: 1024px) {
   html {
     font-size: 93.75%;
-  }
-
-  body {
-    gap: 6rem;
   }
 }
